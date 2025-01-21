@@ -1,0 +1,68 @@
+/* 共通 css */
+:root {
+    --font-color: #121212;
+}
+* {
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    margin: unset;
+}
+img {
+    display: block;
+}
+h1, h2, h3, h4, h5, p, ul, ol, dl, dd {
+    margin: unset;
+    padding: unset;
+}
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--font-color);
+    line-height: 1.7;
+}
+p {
+    font-weight: 600;
+    font-size: 14.4px;
+    color: var(--font-color);
+    line-height: 1.7;
+}
+a, a:visited {
+    font-weight: 300;
+    font-size: 14.4px;
+    color: #ffffff;
+    line-height: 1.7;
+    text-decoration: none;
+}
+p.copy {
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 1.7;
+}
+div.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* 狭い画面向けの既定の CSS レイアウト値 */
+
+@media (min-width: 601px) {
+h2 {
+    font-size: 36px;
+}
+}
+@media (min-width: 658px) {
+  /* 中型の画面向けの CSS */
+}
+
+@media (min-width: 768px) {
+  /* 広い画面向けの CSS */
+}
+
+@media (min-width: 984px) {
+  /* 本当に広い画面向けの CSS */
+}
