@@ -22,6 +22,7 @@ h2 {
     font-size: 24px;
     color: var(--font-color);
     line-height: 1.7;
+    text-align: center;
 }
 p {
     font-weight: 600;
@@ -49,10 +50,50 @@ div.container {
 }
 
 /* 狭い画面向けの既定の CSS レイアウト値 */
+h2 {
+    padding-bottom: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+}
+header div#HamburgerButton {
+    display: grid;
+    gap: 8px;
+    cursor: pointer;
+}
+header div#HamburgerButton span {
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    display: block;
+    border-radius: 4px;
+}
+
+
+main {
+    padding-top: 80px;
+}
+main video {
+    height: 100vh;
+}
+main article {
+    padding-top: 80px;
+}
+
+
+
+
 
 @media (min-width: 601px) {
 h2 {
     font-size: 36px;
+    padding-bottom: 30px;
 }
 }
 @media (min-width: 658px) {
