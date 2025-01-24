@@ -4,7 +4,7 @@
 https://code-jump.com/media-menu/
 
 # 
-- [Figma デザインカンプ](https://www.figma.com/design/6BmLbU9SQavWD2QNJnywUX/media?node-id=0-1&p=f&t=AtZFCTrN1T0vHSnU-0)
+- [Figma デザインカンプ](https://www.figma.com/design/5qjohbDC4Ey9GO39hBHepF/17_CodingPractice_media?m=auto&t=Bwt1n3GPp12wzjKD-6)
 - [デモサイト](https://code-jump.com/demo/html/media/)
 - [完成ページ](https://makowithyou.github.io/CodingPractice_media/)
 
