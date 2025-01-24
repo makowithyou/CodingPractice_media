@@ -77,14 +77,19 @@ header div#HamburgerButton span {
     display: block;
     border-radius: 4px;
 }
+header menu {
+    display: none;
+}
 
 
 main {
     padding-top: 80px;
 }
 video {
+    width: 100%;
     height: 100vh;
     display: block;
+    object-fit: cover;
 }
 article {
     padding-top: 80px;
@@ -177,9 +182,17 @@ h2 {
     font-size: 36px;
     padding-bottom: 30px;
 }
+
+footer article#Contact div.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8%;
+}
 }
 @media (min-width: 658px) {
-  /* 中型の画面向けの CSS */
+    main article#Feature div.articles {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width: 768px) {
@@ -187,5 +200,7 @@ h2 {
 }
 
 @media (min-width: 984px) {
-  /* 本当に広い画面向けの CSS */
+    main article#Feature div.articles {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
