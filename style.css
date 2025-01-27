@@ -13,7 +13,10 @@ body {
 img {
     display: block;
 }
-h1, h2, h3, h4, h5, p, ul, ol, dl, dd {
+li {
+    list-style: none;
+}
+h1, h2, p, ul, menu {
     margin: unset;
     padding: unset;
 }
@@ -64,6 +67,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #ffffff;
+    z-index: 1;
 }
 header div#HamburgerButton {
     cursor: pointer;
@@ -88,8 +92,32 @@ header div#HamburgerButton span:nth-of-type(2) {
 header div#HamburgerButton span:nth-of-type(3) {
     bottom: 0.5px;
 }
-header menu {
-    display: none;
+header div#HamburgerMenu {
+    width: 300px;
+    height: 100vh;
+    background-color: #000000;
+    margin: unset;
+    padding: 60px 25px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    /* display: none; */
+}
+header div#HamburgerMenu menu {
+    margin-bottom: 65px;
+}
+header div#HamburgerMenu menu li {
+    border-top: 1px solid #ffffff;
+}
+header div#HamburgerMenu menu li:last-of-type {
+    border-bottom: 1px solid #ffffff;
+}
+header div#HamburgerMenu menu li a {
+    display: inline-block;
+    margin: 20px 0;
+}
+header div#HamburgerMenu ul li {
+    margin-bottom: 10px;
 }
 /* ハンバーガーメニューopenの時ここから */
 header div#HamburgerButton span:nth-of-type(1).open {
