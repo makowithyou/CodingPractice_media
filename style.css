@@ -107,14 +107,15 @@ header div#HamburgerMenu menu {
     margin-bottom: 65px;
 }
 header div#HamburgerMenu menu li {
+    padding: 20px 0;
     border-top: 1px solid #ffffff;
 }
 header div#HamburgerMenu menu li:last-of-type {
     border-bottom: 1px solid #ffffff;
 }
-header div#HamburgerMenu menu li a {
-    display: inline-block;
-    margin: 20px 0;
+header div#HamburgerMenu menu li span {
+    color: #ffffff;
+    cursor: pointer;
 }
 header div#HamburgerMenu ul li {
     margin-bottom: 10px;
