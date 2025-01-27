@@ -133,9 +133,11 @@ header div#HamburgerButton.open {
     height: 100vh;
     top: 0;
     right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 header div#HamburgerButton span.open {
     right: 16px;
+    background-color: #ffffff;
 }
 header div#HamburgerButton span:nth-of-type(1).open {
     animation: 0.5s forwards span1_open;
