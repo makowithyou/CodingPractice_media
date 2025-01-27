@@ -144,6 +144,7 @@ header div#HamburgerButton span:nth-of-type(1).open {
 }
 header div#HamburgerButton span:nth-of-type(2).open {
     opacity: 0;
+    animation: 0.5s forwards span2_open;
     transition: all 1s;
 }
 header div#HamburgerButton span:nth-of-type(3).open {
@@ -156,6 +157,14 @@ header div#HamburgerButton span:nth-of-type(3).open {
     }
     100% {
         transform: rotate(-225deg);
+        top: 40px;
+    }
+}
+@keyframes span2_open {
+    0% {
+        top: 40px;
+    }
+    100% {
         top: 40px;
     }
 }
