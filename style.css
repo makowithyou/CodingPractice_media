@@ -70,13 +70,15 @@ header {
     z-index: 1;
 }
 header div#HamburgerButton {
+    position: fixed;
+    top: 28.5px;
+    right: 16px;
     cursor: pointer;
     width: 30px;
     height: 23px;
 }
 header div#HamburgerButton span {
     position: absolute;
-    right: 16px;
     background-color: black;
     width: 30px;
     height: 2px;
@@ -126,6 +128,15 @@ header div#HamburgerMenu.open {
     transform: translateX(0px);
     opacity: 1;
 }
+header div#HamburgerButton.open {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+}
+header div#HamburgerButton span.open {
+    right: 16px;
+}
 header div#HamburgerButton span:nth-of-type(1).open {
     animation: 0.5s forwards span1_open;
 }
@@ -139,21 +150,21 @@ header div#HamburgerButton span:nth-of-type(3).open {
 @keyframes span1_open {
     0% {
         transform: rotate(0);
-        top: calc(50% - 11px);
+        top: 40px;
     }
     100% {
         transform: rotate(-225deg);
-        top: 50%;
+        top: 40px;
     }
 }
 @keyframes span3_open {
     0% {
         transform: rotate(0);
-        top: calc(50% + 9px);
+        top: 40px;
     }
     100% {
         transform: rotate(225deg);
-        top: 50%;
+        top: 40px;
     }
 }
 /* ハンバーガーメニューopenの時ここまで */
