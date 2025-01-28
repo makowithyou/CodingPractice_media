@@ -9,6 +9,8 @@ function ScrollByEvent(e) {
             left: 0,
             behavior: "smooth",
         });
+
+        HamburgerEvent();
     }
 }
 
