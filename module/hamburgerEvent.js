@@ -1,10 +1,10 @@
-function HamburgerEvent(e){
+function HamburgerEvent(){
     // ボタンの挙動
-    const spans = e.currentTarget.children;
-    for (let span of spans) {
-        if (span.classList.length == 0) {
+    const HamburgerSpans = document.getElementsByClassName("HamburgerSpans");
+    for (let span of HamburgerSpans) {
+        if (span.classList.length == 1) {
             span.classList.toggle("open");
-        } else if (span.classList.length == 1) {
+        } else if (span.classList.length == 2) {
             span.classList.toggle("open");
             span.classList.toggle("close");
         }
