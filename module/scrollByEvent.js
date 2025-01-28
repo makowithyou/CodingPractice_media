@@ -1,3 +1,5 @@
+import {HamburgerEvent} from './hamburgerEvent.js';
+
 function ScrollByEvent(e) {
     const classList = e.target.classList;
     if (classList[0] == "scrollTo"){
