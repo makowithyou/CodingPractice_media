@@ -1,5 +1,5 @@
 import {HamburgerEvent} from './module/hamburgerEvent.js';
-import {HamburgerEvent} from './module/scrollByEvent.js';
+import {ScrollByEvent} from './module/scrollByEvent.js';
 
 
 
