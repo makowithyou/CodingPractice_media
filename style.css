@@ -228,6 +228,14 @@ article {
 }
 
 
+main div#Slider {
+    display: flex;
+    gap: 40px;
+}
+main div#Slider img {
+    width: 235px;
+}
+
 
 main article#Feature {
     padding-top: 100px;
@@ -325,7 +333,7 @@ footer article#Contact button {
 
 @media (min-width: 601px) {
 video {
-    height: auto;
+    /* height: auto; */
 }
 h2 {
     font-size: 36px;
