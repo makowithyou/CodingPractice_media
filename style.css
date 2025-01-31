@@ -324,6 +324,9 @@ footer article#Contact button {
 
 
 @media (min-width: 601px) {
+video {
+    height: auto;
+}
 h2 {
     font-size: 36px;
     padding-bottom: 30px;
