@@ -231,6 +231,7 @@ article {
 main div#Slider {
     display: flex;
     gap: 40px;
+    transform: translateX(-157px);
 }
 main div#Slider img {
     width: 235px;
