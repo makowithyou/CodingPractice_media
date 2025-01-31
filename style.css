@@ -231,10 +231,12 @@ article {
 main div#Slider {
     display: flex;
     gap: 40px;
-    transform: translateX(-157px);
+    overflow-x: scroll;
+    /* scrollbar-width: none; */
 }
 main div#Slider img {
     width: 235px;
+    transform: translateX(-157px);
 }
 
 
