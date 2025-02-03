@@ -320,6 +320,11 @@ footer article#Contact button {
     font-size: 14.4px;
     font-weight: 300;
     line-height: 1.7;
+    cursor: pointer;
+}
+footer article#Contact button:hover {
+    color: #000000;
+    background-color: #ffffff;
 }
 
 
