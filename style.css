@@ -327,8 +327,14 @@ footer article#Contact button {
 
 
 @media (min-width: 601px) {
-video {
-    /* height: auto; */
+header {
+    padding: 20px 40px;
+}
+header div#HamburgerButton {
+    right: 40px;
+}
+header div#HamburgerButton span.open {
+    right: 40px;
 }
 h2 {
     font-size: 36px;
