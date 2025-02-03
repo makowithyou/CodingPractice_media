@@ -347,10 +347,16 @@ main article#Feature {
     padding-bottom: 60px;
 }
 
+footer article#Contact {
+    padding-bottom: 50px;
+}
 footer article#Contact div.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 8%;
+}
+footer article#Contact button {
+    width: 200px;
 }
 }
 @media (min-width: 658px) {
