@@ -210,7 +210,6 @@ header div#HamburgerButton span:nth-of-type(3).close {
         top: calc(50% + 9px);
     }
 }
-
 /* ハンバーガーメニューcloseの時ここまで */
 
 
@@ -228,15 +227,8 @@ article {
 }
 
 
-main div#Slider {
-    display: flex;
-    gap: 40px;
-    overflow-x: scroll;
-    /* scrollbar-width: none; */
-}
 main div#Slider img {
-    width: 235px;
-    transform: translateX(-157px);
+    padding: 0 20px;
 }
 
 
@@ -356,7 +348,9 @@ footer article#Contact div.grid {
 }
 
 @media (min-width: 768px) {
-  /* 広い画面向けの CSS */
+main div#Slider img {
+    padding: 0 30px;
+}
 }
 
 @media (min-width: 984px) {
