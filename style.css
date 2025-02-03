@@ -340,6 +340,9 @@ h2 {
     font-size: 36px;
     padding-bottom: 30px;
 }
+main article#Feature div.text {
+    padding: 30px;
+}
 
 footer article#Contact div.grid {
     display: grid;
