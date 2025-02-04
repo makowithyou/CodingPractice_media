@@ -1,7 +1,7 @@
 const InnerHeight = window.innerHeight;
-console.log(InnerHeight);
 const ImgFade = document.getElementsByClassName("ImgFade");
 const ImgHeight = ImgFade[0].height;
+console.log(InnerHeight, ImgHeight);
 function FadeInEvent() {
     console.log("FadeInEventの発火");
     // window.addEventListener("scroll", ()=>{
