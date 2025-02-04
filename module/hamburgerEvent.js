@@ -2,11 +2,11 @@ function HamburgerEvent(){
     // ボタンの挙動
     const HamburgerSpans = document.getElementsByClassName("HamburgerSpans");
     for (let span of HamburgerSpans) {
-        if (span.classList.length == 1) {
-            span.classList.toggle("open");
-        } else if (span.classList.length == 2) {
+        if (span.classList.contains("open") | span.classList.contains("close") ) {
             span.classList.toggle("open");
             span.classList.toggle("close");
+        } else {
+            span.classList.toggle("open");
         }
     }
     HamburgerButton.classList.toggle("open");
