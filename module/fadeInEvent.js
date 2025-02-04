@@ -6,7 +6,7 @@ function FadeInEvent() {
     for (const img of ImgFade){
         const ImgBottom = img.y + ImgHeight;
         if (ImgBottom < InnerHeight){
-            if (img.classList.length == 1){
+            if (!img.classList.contains("inview")) {
                 img.classList.add("inview");
             }
         }
