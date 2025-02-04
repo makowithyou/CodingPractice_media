@@ -8,4 +8,4 @@ const HamburgerButton = document.getElementById("HamburgerButton");
 HamburgerButton.addEventListener("click", HamburgerEvent);
 addEventListener("click", ScrollByEvent);
 addEventListener("scroll", FadeInEvent);
-addEventListener("DOMContentLoaded", SliderEvent);
+addEventListener("load", SliderEvent);
