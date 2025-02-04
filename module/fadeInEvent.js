@@ -9,9 +9,9 @@ function FadeInEvent() {
         for (const img of ImgFade){
             const ImgBottom = img.y + ImgHeight;
             if (ImgBottom < InnerHeight){
-                if (!img.classList.contains("inview")) {
+                if (!(img.classList.contains("inview"))) {
+                    console.log(!(img.classList.contains("inview")));
                     img.classList.add("inview");
-                    console.log(img);
                 }
             }
         }
