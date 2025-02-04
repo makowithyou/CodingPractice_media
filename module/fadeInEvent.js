@@ -2,6 +2,7 @@ const InnerHeight = window.innerHeight;
 const ImgFade = document.getElementsByClassName("ImgFade");
 const ImgHeight = ImgFade[0].height;
 console.log(ImgFade);
+console.log(ImgFade[0]);
 console.log(InnerHeight, ImgHeight);
 function FadeInEvent() {
     console.log("FadeInEventの発火");
