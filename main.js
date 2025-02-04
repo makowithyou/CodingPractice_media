@@ -7,5 +7,5 @@ import {SliderEvent} from './module/sliderEvent.js';
 const HamburgerButton = document.getElementById("HamburgerButton");
 HamburgerButton.addEventListener("click", HamburgerEvent);
 addEventListener("click", ScrollByEvent);
-addEventListener("scroll", FadeInEvent);
+addEventListener("load", FadeInEvent);
 addEventListener("load", SliderEvent);
