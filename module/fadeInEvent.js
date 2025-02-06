@@ -3,7 +3,6 @@ const ImgFade = document.getElementsByClassName("ImgFade");
 function FadeInEvent() {
         for (const img of ImgFade){
             const ImgBottom = img.getBoundingClientRect().bottom;
-            console.log(img.alt, "(", ImgBottom, "<", InnerHeight, ")", img.classList.contains("inview"));
             if (ImgBottom < InnerHeight){
                 if (!(img.classList.contains("inview"))) {
                     img.classList.add("inview");
