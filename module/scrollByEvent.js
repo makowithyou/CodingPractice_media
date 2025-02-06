@@ -1,6 +1,7 @@
 import {HamburgerEvent} from './hamburgerEvent.js';
 
 function ScrollByEvent(e) {
+    console.log("クリックされました");
     const classList = e.target.classList;
     if (classList[0] == "scrollTo"){
         const targetId = classList[1];
