@@ -116,7 +116,7 @@ header div#HamburgerMenu menu li {
 header div#HamburgerMenu menu li:last-of-type {
     border-bottom: 1px solid #ffffff;
 }
-header div#HamburgerMenu menu li span {
+header div#HamburgerMenu menu li a {
     color: #ffffff;
     cursor: pointer;
 }
