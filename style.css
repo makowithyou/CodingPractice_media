@@ -319,7 +319,7 @@ footer article#Contact textarea {
 }
 footer article#Contact button {
     color: #ffffff;
-    background-color: black;
+    background-color: var(--font-color);
     border: 1px solid #ffffff;
     padding: 12px;
     font-size: 14.4px;
