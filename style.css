@@ -328,7 +328,7 @@ footer article#Contact button {
     cursor: pointer;
 }
 footer article#Contact button:hover {
-    color: #000000;
+    color: var(--font-color);
     background-color: #ffffff;
 }
 
