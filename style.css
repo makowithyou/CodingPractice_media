@@ -346,6 +346,9 @@ header div#HamburgerButton {
 header div#HamburgerButton span.open {
     right: 40px;
 }
+video {
+    height: auto;
+}
 h2 {
     font-size: 36px;
     padding-bottom: 30px;
